@@ -27,7 +27,7 @@ from sklearn.model_selection import train_test_split
 
 #retreiving stock data
 dataframe = quandl.get("WIKI/GOOGL")
-#result of data from facebook
+#result of data from Google
 print(dataframe.head())
 
 #we will use the adjacted closed column
